@@ -1,4 +1,3 @@
-// components/Todos.js
 import React from 'react';
 import {
   View,

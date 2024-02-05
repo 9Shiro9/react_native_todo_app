@@ -17,17 +17,14 @@ const Todo = ({title, id, description}) => {
   };
 
   const handleEditTodo = () => {
-    // Show the EditTodoModal when the "Edit" button is pressed
     setEditModalVisible(true);
   };
 
   const closeEditModal = () => {
-    // Close the EditTodoModal
     setEditModalVisible(false);
   };
 
   const handleTodoPress = () => {
-    // Navigate to TodoDetails screen with params
     navigation.navigate('TodoDetailsScreen', {title, description});
   };
 
@@ -45,7 +42,6 @@ const Todo = ({title, id, description}) => {
             <AntDesign name="delete" size={20} color="red" />
           </TouchableOpacity>
         </View>
-        {/* EditTodoModal */}
         <EditTodoModal
           showModal={editModalVisible}
           handleShowModal={closeEditModal}

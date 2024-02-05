@@ -51,7 +51,6 @@ const todosSlice = createSlice({
           'Start an online course to acquire a new skill, such as learning a programming language or a musical instrument.',
       },
     ],
-
     filterText: '',
   },
   reducers: {
