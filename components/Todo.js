@@ -4,7 +4,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import {useDispatch} from 'react-redux';
 import {useNavigation} from '@react-navigation/native';
 import {removeTodo} from '../slices/todoSlice';
-import EditTodoModal from './EditTodoModal'; // Import the EditTodoModal component
+import EditTodoModal from './EditTodoModal';
 import {colors} from "../constant/colors"
 
 const Todo = ({title, id, description}) => {
